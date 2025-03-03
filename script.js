@@ -1,11 +1,11 @@
 //your JS code here. If required.
 let counter=0;
-let val=document.getElementbyId('para');
-let but=document.getElementbyId('butt');
+let val=document.getElementById('para');
+let but=document.querySelector('#butt');
 
 function solve(){
 	counter++;
-	val.textContent=counter;
+	val.innerHTML=counter;
 	alert(counter)
 }
 
