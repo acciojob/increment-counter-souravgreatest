@@ -4,9 +4,9 @@ let val=document.getElementById('counter');
 let but=document.querySelector('#incrementBtn');
 
 function solve(){
+	alert(counter)
 	counter++;
 	val.innerHTML=counter;
-	alert(counter)
 }
 
 but.addEventListener('click',solve);
